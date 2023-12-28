@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner-content{
+    padding-left: 3rem;
+    padding-top: 250px;
+    width: 45rem;
+}
+
+.banner-content h1{
+    font-family: fantasy;
+    color: hsl(0, 77%, 46%);
+}
+
+.banner-content p{
+    font-family:monospace;
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.btn2{
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight:500;
+}
+
