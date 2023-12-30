@@ -20,7 +20,7 @@ console.log(show);
 
   return (
     <div className= {`${show && 'nav-black'} nav`}>
-        <img width={'150px'} src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="netflix" />
+        <img width={'150px'} height={'50px'} style={{objectFit:"cover"}} src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="netflix" />
     </div>
   )
 }

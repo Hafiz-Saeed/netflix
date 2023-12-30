@@ -28,7 +28,7 @@ function Row({ title, fetchUrl,isPoster }) {
       <div className="movies-row">
         {
           allMovies?.map(item => (
-            <img className={`${isPoster && 'movie-poster'} movie-image`} src={`${base_url}/${isPoster ? item.poster_path : item?.backdrop_path}`} alt="movieimg" />
+            <img style={{cursor:"pointer"}} className={`${isPoster && 'movie-poster'} movie-image`} src={`${base_url}/${isPoster ? item.poster_path : item?.backdrop_path}`} alt="movieimg" />
           ))
         }
       </div>
